@@ -1,5 +1,8 @@
 $rcl: 'RobotoCondensedLight'; 
 $rcr: 'RobotoCondensedRegular';
+$rl: 'RobotoLight';
+$rbl: 'RobotoBlack';
+$rr: 'RobotoRegular';
 
 @font-face { 
 font-family: 'RobotoCondensedLight'; 
@@ -17,4 +20,31 @@ url('../fonts/RobotoCondensedRegular/RobotoCondensedRegular.woff2') format('woff
 url('../fonts/RobotoCondensedRegular/RobotoCondensedRegular.woff') format('woff'), 
 url('../fonts/RobotoCondensedRegular/RobotoCondensedRegular.ttf') format('truetype'), 
 url('../fonts/RobotoCondensedRegular/RobotoCondensedRegular.svg') format('svg'); 
+} 
+
+@font-face { 
+font-family: 'RobotoLight'; 
+src: url('../fonts/RobotoLight/RobotoLight.eot') format('embedded-opentype'), 
+url('../fonts/RobotoLight/RobotoLight.woff2') format('woff2'), 
+url('../fonts/RobotoLight/RobotoLight.woff') format('woff'), 
+url('../fonts/RobotoLight/RobotoLight.ttf') format('truetype'), 
+url('../fonts/RobotoLight/RobotoLight.svg') format('svg'); 
+} 
+
+@font-face { 
+font-family: 'RobotoBlack'; 
+src: url('../fonts/RobotoBlack/RobotoBlack.eot') format('embedded-opentype'), 
+url('../fonts/RobotoBlack/RobotoBlack.woff2') format('woff2'), 
+url('../fonts/RobotoBlack/RobotoBlack.woff') format('woff'), 
+url('../fonts/RobotoBlack/RobotoBlack.ttf') format('truetype'), 
+url('../fonts/RobotoBlack/RobotoBlack.svg') format('svg'); 
+} 
+
+@font-face { 
+font-family: 'RobotoRegular'; 
+src: url('../fonts/RobotoRegular/RobotoRegular.eot') format('embedded-opentype'), 
+url('../fonts/RobotoRegular/RobotoRegular.woff2') format('woff2'), 
+url('../fonts/RobotoRegular/RobotoRegular.woff') format('woff'), 
+url('../fonts/RobotoRegular/RobotoRegular.ttf') format('truetype'), 
+url('../fonts/RobotoRegular/RobotoRegular.svg') format('svg'); 
 } 
