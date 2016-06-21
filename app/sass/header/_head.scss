@@ -1,0 +1,72 @@
+.header{
+	width: 100%;
+	float: left;
+	display: block;
+	background: #FFF;
+	padding: 10px 0;
+}
+.header-logo{
+	width: 25%;
+	float: left;
+	display: block;
+}
+.logo{
+	display: block;
+	float: left;
+	position: relative;
+	width: 177px;
+	height: 69px;
+	img{
+		max-width: 100%;
+		position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    -webkit-transform: translate(-50%, -50%);
+	       -moz-transform: translate(-50%, -50%);
+	        -ms-transform: translate(-50%, -50%);
+	         -o-transform: translate(-50%, -50%);
+	            transform: translate(-50%, -50%);	
+	}
+}
+.header__menu{
+	width: 50%;
+	float: left;
+	display: block;
+}
+.head-menu{
+	width: 100%;
+	float: left;
+	display: block;
+	text-align: center;
+	padding-left: 0;
+	top: 12px;
+    position: relative;
+	li{
+		list-style-type: none;
+		display: inline-block;
+		margin: 0px 20px;
+		a{
+			font-size: 14px;
+			font-family: $rcr;
+			color: #4b5158;
+			text-transform: uppercase;
+		}
+	}
+}
+.login-botton{
+	width: 25%;
+	float: right;
+	display: block;
+	text-align: right;
+	height: auto;
+	top: 15px;
+    position: relative;
+	span{
+		font-size: 14px;
+		font-family: $rcr;
+		color: #4b5158;
+		border: 4px solid #fdc12e;
+		padding: 10px;
+		display: inline-block;
+	}
+}
