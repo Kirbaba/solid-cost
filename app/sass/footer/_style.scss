@@ -1,0 +1,18 @@
+.footer{
+	width: 100%;
+	float: left;
+	display: block;
+	position: relative;
+	height: 40px;
+	background-color: #4b5158;
+	text-align: center;
+	p{
+		font-size: 12px;
+		color: #fff;
+		margin: 0 auto;
+		float: none;
+		font-family: $rr;
+		line-height: 40px;
+		
+	}
+}
