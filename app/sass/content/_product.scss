@@ -15,7 +15,7 @@
     	display: block;
     }
     .mount{
-    	top: 41px;
+    	top: 0px;
     }
 }
 .top_text-first{
@@ -159,11 +159,11 @@
 		margin-left: 10px;
 	}
 }
-.product__items:nth-o-type(even){
-	.items_thumb:nth-child(odd){
+.product__items:nth-of-type(even){
+	.items_thumb{
 		float: right;
 	}
-	.items_text:nth-child(even){
+	.items_text{
 		float: left;
 	}
 }
