@@ -3,7 +3,9 @@ $rcr: 'RobotoCondensedRegular';
 $rl: 'RobotoLight';
 $rbl: 'RobotoBlack';
 $rr: 'RobotoRegular';
-
+$rb: 'RobotoBold';
+$ri: 'RobotoItalic';
+ 
 @font-face { 
 font-family: 'RobotoCondensedLight'; 
 src: url('../fonts/RobotoCondensedLight/RobotoCondensedLight.eot') format('embedded-opentype'), 
@@ -47,4 +49,22 @@ url('../fonts/RobotoRegular/RobotoRegular.woff2') format('woff2'),
 url('../fonts/RobotoRegular/RobotoRegular.woff') format('woff'), 
 url('../fonts/RobotoRegular/RobotoRegular.ttf') format('truetype'), 
 url('../fonts/RobotoRegular/RobotoRegular.svg') format('svg'); 
+} 
+
+@font-face { 
+font-family: 'RobotoBold'; 
+src: url('../fonts/RobotoBold/RobotoBold.eot') format('embedded-opentype'), 
+url('../fonts/RobotoBold/RobotoBold.woff2') format('woff2'), 
+url('../fonts/RobotoBold/RobotoBold.woff') format('woff'), 
+url('../fonts/RobotoBold/RobotoBold.ttf') format('truetype'), 
+url('../fonts/RobotoBold/RobotoBold.svg') format('svg'); 
+} 
+
+@font-face { 
+font-family: 'RobotoItalic'; 
+src: url('../fonts/RobotoItalic/RobotoItalic.eot') format('embedded-opentype'), 
+url('../fonts/RobotoItalic/RobotoItalic.woff2') format('woff2'), 
+url('../fonts/RobotoItalic/RobotoItalic.woff') format('woff'), 
+url('../fonts/RobotoItalic/RobotoItalic.ttf') format('truetype'), 
+url('../fonts/RobotoItalic/RobotoItalic.svg') format('svg'); 
 } 
