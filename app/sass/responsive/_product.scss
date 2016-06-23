@@ -1,8 +1,12 @@
 @media only screen and (max-width: 1024px) {
 	.product__top{
+		height: 700px;
 		.mount{
-	    	top: 10px;
-	    }
+			bottom: 0;
+			position: absolute;
+			top: initial;
+			background-position: 50% 100%;
+		}
 	} 
 	.product__bottom{
 		.product__items{
@@ -24,7 +28,7 @@
 		}
 	}
 	.product__bottom{
-		height: 1000px;
+		height: auto;
 	}
 	.product__form_left{
 		h4{
@@ -54,16 +58,22 @@
 @media only screen and (max-width: 736px) {
 	.product__top{
 		height: 500px;
+		.mount{
+			bottom: 0;
+			position: absolute;
+			top: initial;
+			background-position: 50% 100%;
+		}
 	}
 	.top_text-first{
-		font-size: 50px;
+		font-size: 45px;
 		margin: 10px 0;
 	}
 	.top_text-second{
 		font-size: 35px;
 	}
 	.product__bottom{
-		height: 1400px;
+		height: auto;
 		.product__items{
 			.items_thumb{
 				width: 100%;
