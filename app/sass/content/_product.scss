@@ -8,6 +8,7 @@
     position: relative;
     text-align: center;
     padding-top: 20px;
+ 
     h2{
     	width: 100%;
     	float: left;
@@ -18,6 +19,7 @@
     }
 }
 .top_text-first{
+	width: 100%;
 	font-size: 76px;
 	font-family: $rbl;
 	text-align: center;
@@ -29,6 +31,7 @@
 	display: inline-block;
 }
 .top_text-second{
+	width: 100%;
 	font-size: 48px;
 	font-family: $rl;
 	text-align: center;
@@ -40,6 +43,7 @@
 	margin-bottom: 18px;
 }
 .top_text-third{
+	width: 100%;
 	font-size: 18px;
 	font-family: $rr;
 	text-align: center;
@@ -64,6 +68,7 @@
 	text-align: center;
 	height: 800px;
 	padding: 40px 0 0;
+	
 }
 
 .product__items{
@@ -193,11 +198,13 @@
 	width: 50%;
 	display: block;
 	padding: 40px 0;
+	
 }
 .product__form_right-form{
 	width: 100%;
 	float: left;
 	display: block;
+	
 	.input-content{
 		line-height: 42px;
 		height: 42px;
