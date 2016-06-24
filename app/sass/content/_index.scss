@@ -2,10 +2,11 @@
 	width: 100%;
 	float: left;
 	display: block;
+	height: 980px;
 	/* background-image: url('/img/fon.png');
 	background-repeat: no-repeat;
 	    background-size: cover; */
-
+	position: relative;
     padding: 20px 0 0;
     background-color: #F1F1F2;
 }
@@ -20,6 +21,8 @@
     height: 795px;
     background-position-x: 99%;
     background-position-y: 25px;
+    background-position: 99% 25px;
+
 
 }
 .content-left{
@@ -38,22 +41,26 @@
 	font-family: $rbl;
 	color: #4b5158;
 	text-transform: uppercase;
+	line-height: 65px;
 }
 .second-title{
 	font-size: 77px;
 	font-family: $rl;
 	color: #FFF;
 	text-transform: uppercase;
+	line-height: 70px;
 }
 .text-cont{
 	font-size: 18px;
 	font-family: $rr;
 	color: #4b5158;
+	margin-top: 10px;
 }
 .line{
 	width: 100%;
 	display: block;
 	float: left;
+	margin-top: 50px;
 }
 .content-left-form{
 	width: 67%;
@@ -92,7 +99,7 @@ input:-ms-input-placeholder      {color: #4b5158; font-size: 14px; font-family: 
 	line-height: 37px;
 }
 .play-video{
-	width: 33%;
+	width: 26%;
 	float: left;
 	display: block;
 	font-size: 14px;
@@ -130,9 +137,10 @@ input:-ms-input-placeholder      {color: #4b5158; font-size: 14px; font-family: 
 	background-repeat: no-repeat;
     background-size: 100%;
     height: 280px;
-    position: relative;
-    text-align: center;
-    top: 0px;
+    bottom: 0;
+	position: absolute;
+	top: initial;
+	background-position: 50% 100%;
 }
 .mount__items{
 	width: 100%;
@@ -149,7 +157,7 @@ input:-ms-input-placeholder      {color: #4b5158; font-size: 14px; font-family: 
 	display: inline-block;
 	position: relative;
 	margin: 0 auto;
-	top: 20px;
+	top: 70px;
 	
 }
 .items{
@@ -191,4 +199,5 @@ input:-ms-input-placeholder      {color: #4b5158; font-size: 14px; font-family: 
     float: none;
     padding-top: 30px;
     width: 70%;
+    text-transform: uppercase;
 }

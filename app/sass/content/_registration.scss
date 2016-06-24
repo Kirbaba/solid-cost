@@ -1,0 +1,107 @@
+.registration{
+	width: 100%;
+	float: left;
+	display: block;
+	background-color: #F1F1F2;
+	height: 900px; 
+	position: relative;
+	text-align: center;
+}
+.registration-form{
+	position: relative;
+	margin: 0 auto;
+	display: inline-block;
+	width: 400px;
+	background-color: #FFF;
+	height: auto;
+	padding: 30px 0;
+	margin: 100px 0;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+	-moz-box-shadow:0 0 20px #b3b3b3;
+	-webkit-box-shadow:0 0 20px #b3b3b3;
+	box-shadow:0 0 20px #b3b3b3;
+}
+.logo-registration{
+	height: 105px;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	img{
+		width: 270px;
+		max-height: 100%;
+		position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    -webkit-border-radius: 10px;
+	        border-radius: 10px;
+	    -webkit-transform: translate(-50%, -50%);
+	       -moz-transform: translate(-50%, -50%);
+	        -ms-transform: translate(-50%, -50%);
+	         -o-transform: translate(-50%, -50%);
+	            transform: translate(-50%, -50%);	
+	}
+}
+.regist{
+	width: 100%;
+	float: left;
+	display: block;
+	padding: 20px 55px;
+	text-align: -webkit-center;
+	text-align: -moz-center;
+	text-align: -o-center;
+	
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	
+}
+.input-regist{
+	width: 70%;
+	height: 42px;
+	line-height: 42px;
+	background-color: #fff;
+	border: 1px solid #e7e7e7;
+	margin: 5px 0;
+	padding-left: 15px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+&::-webkit-input-placeholder {color: #adadad; font-size: 14px; font-family: $ri;}
+&::-moz-placeholder          {color: #adadad; font-size: 14px; font-family: $ri;}/* Firefox 19+ */
+&:-moz-placeholder           {color: #adadad; font-size: 14px; font-family: $ri;}/* Firefox 18- */
+&:-ms-input-placeholder      {color: #adadad; font-size: 14px; font-family: $ri;}
+
+.label-regist{
+	width: 24%;
+	display: block;
+	float: left;
+	text-align: right;
+	color: #4b5158;
+	font-size: 14px;
+	font-family: $rb;
+	margin-right: 15px;
+    line-height: 52px;
+	span{
+		display: inline-block;
+		color: #fdc12e;
+		margin-right: 4px;
+	}
+}
+.Download-button{
+	width: 28%;
+	border: 5px solid #fdc12e;
+	display: block;
+	margin-right: 25px;
+	margin-top: 15px;
+	height: 36px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: $rcr;
+	text-align: center;
+	color: #4b5158;
+	text-decoration: none;
+	line-height: 37px;
+	font-family: $rcr;
+}

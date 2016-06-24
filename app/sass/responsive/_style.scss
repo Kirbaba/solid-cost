@@ -1,11 +1,16 @@
 @media only screen and (max-width: 1024px) {
+	.middle{
+		height: 750px;
+	}
 	.content{
-		background-image: none;
+		background-size: 49%;
 		height: 580px;
 	}
 	.toggle_mnu{
 		display: block;
 		right: 35px;
+		float: right;
+   		 position: relative;
 	}
 	.header__menu{
 		display: none;
@@ -63,8 +68,8 @@
 		top: 0;
 	}
 	.mount{
-		height: 170px;
-		top: 1px;
+		bottom: -4px;
+
 	}
 	.mount__items{
 		height: 500px;
@@ -84,12 +89,17 @@
 }
 
 @media only screen and (max-width: 736px) {
+	.middle{
+		height: 650px;
+	}
 	.content{
 		background-image: none;
 		height: 330px;
 	}
 	.toggle_mnu{
 		display: block;
+		float: right;
+    	position: relative;
 	}
 	.header__menu{
 		display: none;
@@ -153,8 +163,7 @@
 	    margin-top: 10px;
 	}
 	.mount{
-		height: 270px;
-    	top: 210px;
+		
 	}
 	.mount__items{
 		min-height: 550px;

@@ -24,9 +24,10 @@
 }
 .top_text-first{
 	width: 100%;
-	font-size: 76px;
+	font-size: 75px;
 	font-family: $rbl;
 	text-align: center;
+	line-height: 55px;
 	color: #4B5158;
 	text-transform: uppercase;
 	margin-bottom: 0;
@@ -108,7 +109,7 @@
 
 
 .items_text{
-	width: 50%;
+	width: 47%;
 	float: right;
 	display: block;
 	position: relative;
@@ -166,9 +167,23 @@
 .product__items:nth-of-type(even){
 	.items_thumb{
 		float: right;
+		padding-left: 0;	
+		
 	}
 	.items_text{
+		padding-left: 0;	
+
 		float: left;
+		h3{
+			text-align: right;
+			padding-left: 0;
+		}
+		p{
+			text-align: right;
+		}
+		.text-line{
+			float: right;
+		}
 	}
 }
 .product__form{
