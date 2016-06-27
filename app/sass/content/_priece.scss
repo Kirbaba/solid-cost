@@ -105,14 +105,14 @@
 	text-align: center;
 	height: auto;
 	padding: 20px 0 50px;
-	h2{
+	a{
 		font-size: 36px;
 		color: #4b5158;
 		font-family: $rb;
+		&:hover{
+			color: #5c1414;
+		}
 	}
-	p{
-		font-size: 14px;
-		color: #4b5158;
-		font-family: $rr;
-	}
+	
+	
 }
