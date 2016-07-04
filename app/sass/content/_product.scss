@@ -4,11 +4,11 @@
 	display: block;
 	background-image: url('../img/product-fon.png');
 	background-repeat: no-repeat;
-    height: 515px;
+    height: 645px;
     position: relative;
     text-align: center;
     padding-top: 20px;
-    background-size: contain;
+    background-size: cover;
  
     h2{
     	width: 100%;
@@ -226,6 +226,7 @@
 	height: 128px;
 	background-color: #3f444a;
 	position: relative;
+	z-index: 40;
 }
 .product__form_left{
 	width: 50%;
