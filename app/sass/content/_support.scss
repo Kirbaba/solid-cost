@@ -10,7 +10,6 @@
 	.mount{
     	bottom: 0;
 		position: absolute;
-		top: initial;
 		background-position: 50% 100%;
     }
 }
@@ -51,6 +50,8 @@
     float: left;
     margin-top: 60px;
     text-align: center;
+    z-index: 10;
+    position: relative;
    
 	a{
 		color: #fdc12e;
@@ -58,6 +59,7 @@
 		font-family: $rl;
 		height: 30px;
 		margin-left: 50px;
+		z-index: 10;
 		&:first-of-type{
 			margin-left: 0;
 		}
@@ -94,12 +96,15 @@
 	text-align: center;
 	margin-top: 50px;
 	float: left;
+	z-index: 10;
+	position: relative;
 }
 .button-first, .button-second{
 	width: 34%;
 	height: 70px;
 	display: inline-block;
 	padding: 20px 0;
+	z-index: 10;
 	}
 .button-text{
 	text-transform: uppercase;

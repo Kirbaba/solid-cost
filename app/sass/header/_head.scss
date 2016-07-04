@@ -4,6 +4,8 @@
 	display: block;
 	background: #FFF;
 	padding: 10px 0;
+	position: relative;
+    	z-index: 10;
 }
 .header-logo{
 	width: 25%;
@@ -51,13 +53,14 @@
 			color: #4b5158;
 			text-transform: uppercase;
 		}
+		
 	}
 }
 
 .login-botton{
 	width: 25%;
 	float: right;
-	display: block;
+	display: none;
 	text-align: right;
 	height: auto;
 	top: 15px;
