@@ -119,6 +119,9 @@
     font-family: $rcr;
     float: none;
     margin: 0 auto;
+    &:hover{
+    	background-color: #FDC12E;
+    }
 }
 .mount-color{
 	width: 100%;
