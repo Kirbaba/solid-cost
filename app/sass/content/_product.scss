@@ -4,17 +4,17 @@
 	display: block;
 	background-image: url('../img/product-fon.png');
 	background-repeat: no-repeat;
-    height: 645px;
+    height: 595px;
     position: relative;
     text-align: center;
     padding-top: 20px;
     background-size: cover;
- 
+
     h2{
     	width: 100%;
     	float: left;
     	display: block;
-    	
+
     }
     .mount{
     	bottom: 0;
@@ -80,7 +80,7 @@
 	text-align: center;
 	height: auto;
 	padding: 0px 0 40px 0;
-	
+
 }
 .product-text{
 	display: block;
@@ -106,9 +106,9 @@
 		margin-bottom: 0;
 		li{
 			text-align: center;
-			width: 70%;
+			width: 75%;
 			font-family: $rr;
-			font-size: 14px;
+			font-size: 17px;
 			color: #4B5158;
 			margin: 10px auto;
 		}
@@ -124,7 +124,7 @@
 	float: left;
 	/* display: block;
 	position: relative; */
-	margin: 30px 0;	
+	margin: 30px 0;
 	display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -136,7 +136,7 @@
 	text-align: center;
 	display: inline-block;
 	position: relative;
-	
+
 	img{
 		width: 100%;
 		max-height: 100%;
@@ -149,7 +149,7 @@
 	       -moz-transform: translate(-50%, -50%);
 	        -ms-transform: translate(-50%, -50%);
 	         -o-transform: translate(-50%, -50%);
-	            transform: translate(-50%, -50%);	
+	            transform: translate(-50%, -50%);
 	}
 }
 
@@ -162,7 +162,7 @@
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
 	        box-sizing: border-box;
-	
+
 	h3{
 		font-size: 24px;
 		font-family: $rbl;
@@ -173,7 +173,7 @@
 		margin-bottom: 14px;
 		float: left;
 		width: 100%;
-		
+
 	}
 	p{
 		font-size: 14px;
@@ -202,11 +202,11 @@
 	        flex-direction: row-reverse;
 	 .items_thumb{
 		float: right;
-		padding-left: 0;	
-		
+		padding-left: 0;
+
 	}
 	.items_text{
-		padding-left: 0;	
+		padding-left: 0;
 		float: left;
 		h3{
 			text-align: right;
@@ -218,7 +218,7 @@
 		.text-line{
 			float: right;
 		}
-	} 
+	}
 }
 .product__form{
 	float: left;
@@ -252,13 +252,13 @@
 	width: 50%;
 	display: block;
 	padding: 40px 0;
-	
+
 }
 .product__form_right-form{
 	width: 100%;
 	float: left;
 	display: block;
-	
+
 	.input-content{
 		line-height: 42px;
 		height: 42px;
